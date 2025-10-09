@@ -1,0 +1,7 @@
+[project]
+name = "sg-ai-ctf-25"
+version = "0.1.0"
+description = "All challenges for SG-AI CTF 2025"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
