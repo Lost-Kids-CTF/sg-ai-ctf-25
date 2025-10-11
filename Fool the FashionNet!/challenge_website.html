@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Perturbation - Fool the FashionNet!</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+      }
+
+      .header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 40px;
+        text-align: center;
+      }
+
+      .header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+      }
+
+      .header p {
+        font-size: 1.1em;
+        opacity: 0.9;
+      }
+
+      .content {
+        padding: 40px;
+      }
+
+      .section {
+        margin-bottom: 40px;
+      }
+
+      .section h2 {
+        color: #667eea;
+        margin-bottom: 15px;
+        font-size: 1.8em;
+        border-bottom: 2px solid #667eea;
+        padding-bottom: 10px;
+      }
+
+      .section h3 {
+        color: #764ba2;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 1.3em;
+      }
+
+      .button-group {
+        display: flex;
+        gap: 20px;
+        margin: 20px 0;
+        flex-wrap: wrap;
+      }
+
+      .btn {
+        padding: 15px 30px;
+        border: none;
+        border-radius: 8px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: all 0.3s;
+        text-decoration: none;
+        display: inline-block;
+        font-weight: 600;
+      }
+
+      .btn-primary {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+      }
+
+      .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+      }
+
+      .btn-secondary {
+        background: #6c757d;
+        color: white;
+      }
+
+      .btn-secondary:hover {
+        background: #5a6268;
+        transform: translateY(-2px);
+      }
+
+      .upload-section {
+        background: #f8f9fa;
+        padding: 30px;
+        border-radius: 8px;
+        border: 2px dashed #667eea;
+      }
+
+      .file-input-wrapper {
+        position: relative;
+        margin: 20px 0;
+      }
+
+      #deltaFile {
+        padding: 10px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        width: 100%;
+        font-size: 1em;
+      }
+
+      .result {
+        margin-top: 20px;
+        padding: 20px;
+        border-radius: 8px;
+        display: none;
+      }
+
+      .result.success {
+        background: #d4edda;
+        border: 2px solid #28a745;
+        color: #155724;
+      }
+
+      .result.error {
+        background: #f8d7da;
+        border: 2px solid #dc3545;
+        color: #721c24;
+      }
+
+      .flag-display {
+        background: #000;
+        color: #0f0;
+        padding: 15px;
+        border-radius: 8px;
+        font-family: "Courier New", monospace;
+        font-size: 1.1em;
+        margin-top: 15px;
+        word-break: break-all;
+      }
+
+      .loading {
+        display: none;
+        text-align: center;
+        margin: 20px 0;
+      }
+
+      .spinner {
+        border: 4px solid #f3f3f3;
+        border-top: 4px solid #667eea;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        animation: spin 1s linear infinite;
+        margin: 0 auto;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      code {
+        background: #f4f4f4;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-family: "Courier New", monospace;
+      }
+
+      pre {
+        background: #f4f4f4;
+        padding: 15px;
+        border-radius: 8px;
+        overflow-x: auto;
+        margin: 10px 0;
+      }
+
+      ul,
+      ol {
+        margin-left: 20px;
+        line-height: 1.8;
+      }
+
+      li {
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>🧥 Fool the FashionNet!</h1>
+      </div>
+
+      <div class="content">
+        <div class="section">
+          <h2>📋 Challenge Overview</h2>
+          <div style="font-size: 1.15em; line-height: 1.7; margin-bottom: 10px">
+            <span style="display: block; margin-bottom: 10px"
+              ><b
+                >Your greatest rival,
+                <span style="color: #764ba2">FashionNET</span></b
+              >, has unveiled a state-of-the-art AI that “perfectly” organises
+              wardrobes for millions—until someone left the model weights
+              exposed on a public server.</span
+            >
+            <span style="display: block; margin-bottom: 10px"
+              >Now their classifier is <b>laughably fragile</b>: tiny, invisible
+              tweaks can flip shirts into shoes, or trousers into dresses. As a
+              trained AI hacker, craft a near-invisible perturbation, and prove
+              you can outstyle their system.
+              <span style="color: #667eea"
+                >Steal the spotlight — and claim the flag.</span
+              ></span
+            >
+          </div>
+          <div style="margin-bottom: 10px">
+            <b style="font-size: 1.1em; color: #764ba2">Your mission:</b>
+          </div>
+          <ul style="margin-top: 0; margin-bottom: 10px; padding-left: 25px">
+            <li style="margin-bottom: 7px">
+              <b>Craft a tiny <code>delta.npy</code></b> that flips FashionNET's
+              AI model prediction,
+              <span style="color: #667eea"
+                >without changing how the image looks to humans</span
+              >.
+            </li>
+            <li style="margin-bottom: 7px">
+              Respect the <b>L∞</b> and <b>SSIM</b> rules—<span
+                style="color: #764ba2"
+                >stay stealthy</span
+              >, no wild makeovers!
+            </li>
+            <li style="margin-bottom: 7px">
+              Submit to verify and claim the flag.
+              <span style="color: #667eea"
+                >Can you outsmart the AI (and look good doing it)?</span
+              >
+            </li>
+          </ul>
+          <div style="font-style: italic; color: #888; margin-bottom: 10px">
+            Bonus points for style, zero points for pixelated chaos. 🕶️
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>🎓 Challenge Requirements</h2>
+
+          <h3>Objective:</h3>
+          <p>
+            Based on the given seed image, create an adversarial perturbation
+            <code>delta.npy</code> that:
+          </p>
+          <ul>
+            <li>
+              <strong>Flip the label:</strong> Changes the model's prediction
+              from the original class to ANY different class
+            </li>
+
+            <li>
+              Satisfies L∞ norm constraint: <code>||delta||_∞ ≤ 0.08</code>
+            </li>
+            <li>Maintains visual similarity: <code>SSIM ≥ 0.85</code></li>
+          </ul>
+
+          <h3>Technical Constraints:</h3>
+          <ul>
+            <li><strong>Shape:</strong> <code>(1, 28, 28)</code></li>
+            <li><strong>Dtype:</strong> <code>float32</code></li>
+            <li>
+              <strong>Format:</strong> NumPy array saved as <code>.npy</code>
+            </li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2>📦 Download Challenge Package</h2>
+          <p>
+            Download the challenge package containing the seed image, utility
+            functions, and model checkpoint and architecture information.
+          </p>
+
+          <div class="button-group">
+            <a href="/download" class="btn btn-primary" download
+              >⬇️ Download Challenge Package</a
+            >
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>🚀 Submit Your Solution</h2>
+          <div class="upload-section">
+            <p>
+              <strong>Upload your <code>delta.npy</code> file:</strong>
+            </p>
+
+            <form id="uploadForm" enctype="multipart/form-data">
+              <div class="file-input-wrapper">
+                <input
+                  type="file"
+                  id="deltaFile"
+                  name="delta"
+                  accept=".npy"
+                  required
+                />
+              </div>
+              <button type="submit" class="btn btn-primary">
+                🔍 Verify Submission
+              </button>
+            </form>
+
+            <div class="loading" id="loading">
+              <div class="spinner"></div>
+              <p style="margin-top: 10px">Verifying your submission...</p>
+            </div>
+
+            <div id="result" class="result"></div>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>🚀 Quick Start</h2>
+
+          <h3>1. Download Challenge Package</h3>
+          <p>
+            Click the "Download Challenge Package" button above to get started.
+          </p>
+
+          <h3>2. Install Dependencies</h3>
+          <pre><code>pip install -r requirements.txt</code></pre>
+
+          <h3>3. Create Your Attack</h3>
+          <ul>
+            <li>
+              Create <code>delta.npy</code> - your adversarial perturbation
+            </li>
+            <li>
+              Shape: <code>(1, 28, 28)</code>, dtype: <code>float32</code>
+            </li>
+          </ul>
+
+          <h3>4. Submit Your Solution</h3>
+          <p>
+            Use the upload form in the "Submit Your Solution" section to verify
+            your attack and claim your flag.
+          </p>
+        </div>
+
+        <div class="section">
+          <h2>🛠️ Utility Functions</h2>
+          <p>
+            The challenge package includes <code>utils.py</code> with metrics
+            functions for offline validation:
+          </p>
+          <pre><code>from utils import linf, ssim_01
+
+# Check L∞ constraint  
+max_norm, is_valid = linf(delta, eps=0.08)
+
+# Calculate SSIM between original and adversarial images
+similarity = ssim_01(original, adversarial)</code></pre>
+          <p>
+            <strong>Note:</strong> These functions help you validate your attack
+            offline before submission.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document
+        .getElementById("uploadForm")
+        .addEventListener("submit", async (e) => {
+          e.preventDefault();
+
+          const fileInput = document.getElementById("deltaFile");
+          const resultDiv = document.getElementById("result");
+          const loadingDiv = document.getElementById("loading");
+
+          if (!fileInput.files[0]) {
+            resultDiv.className = "result error";
+            resultDiv.style.display = "block";
+            resultDiv.innerHTML =
+              "<strong>❌ Error:</strong> Please select a file";
+            return;
+          }
+
+          const formData = new FormData();
+          formData.append("delta", fileInput.files[0]);
+
+          // Show loading
+          loadingDiv.style.display = "block";
+          resultDiv.style.display = "none";
+
+          try {
+            const response = await fetch("/verify", {
+              method: "POST",
+              body: formData,
+            });
+
+            const data = await response.json();
+
+            // Hide loading
+            loadingDiv.style.display = "none";
+            resultDiv.style.display = "block";
+
+            if (data.status === "ACCEPTED") {
+              resultDiv.className = "result success";
+              resultDiv.innerHTML = `
+                        <h3>🎉 Success! Attack Verified!</h3>
+                        <p><strong>Original Prediction:</strong> Class ${
+                          data.details.original_prediction
+                        }</p>
+                        <p><strong>Adversarial Prediction:</strong> Class ${
+                          data.details.adversarial_prediction
+                        }</p>
+                        <p><strong>L∞ Norm:</strong> ${data.details.linf_norm.toFixed(
+                          6
+                        )}</p>
+                        <p><strong>SSIM Score:</strong> ${data.details.ssim_score.toFixed(
+                          4
+                        )}</p>
+                        <div class="flag-display">
+                            <strong>🚩 FLAG:</strong><br>
+                            ${data.flag}
+                        </div>
+                    `;
+            } else {
+              resultDiv.className = "result error";
+              resultDiv.innerHTML = `
+                        <h3>❌ Submission Rejected</h3>
+                        <p><strong>Reason:</strong> ${data.reason}</p>
+                    `;
+            }
+          } catch (error) {
+            loadingDiv.style.display = "none";
+            resultDiv.style.display = "block";
+            resultDiv.className = "result error";
+            resultDiv.innerHTML = `
+                    <h3>❌ Error</h3>
+                    <p><strong>Failed to verify submission:</strong> ${error.message}</p>
+                `;
+          }
+        });
+    </script>
+  </body>
+</html>

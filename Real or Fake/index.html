@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real or Fake</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <!-- Loading Screen -->
+      <div id="loading-screen" class="screen active">
+        <div class="loading-container">
+          <h1 class="main-title">🤖 Real or Fake</h1>
+          <div class="loading-spinner"></div>
+          <p id="loading-text">Loading challenge…</p>
+          <div class="progress-bar">
+            <div id="progress-fill" class="progress-fill"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Instructions Screen -->
+      <div id="instructions-screen" class="screen">
+        <div class="instructions-container">
+          <h1 class="main-title">🤖 Real or Fake</h1>
+          <div class="subtitle">
+            Can you tell which photos are real and which are sneaky fakes? Just
+            your eyes, your gut, and maybe a little help from the outside. Good
+            luck!
+          </div>
+          <div class="instructions">
+            <h2>How to Play:</h2>
+            <ul>
+              <li>🖼️ You'll see a series of photos from around the world.</li>
+              <li>
+                👈 Swipe <strong>LEFT</strong> if you think it's a
+                <span class="fake">FAKE</span>.
+              </li>
+              <li>
+                👉 Swipe <strong>RIGHT</strong> if you think it's
+                <span class="real">REAL</span>.
+              </li>
+              <li>🤖 Use the buttons, swipe, or keyboard arrows—your call!</li>
+              <li>
+                🎯 Make your best judgment for each image. No tricks—just you
+                and your digital feel!
+              </li>
+            </ul>
+            <div class="controls-hint">
+              <div class="control-item">
+                <button class="btn btn-fake" disabled>←</button>
+                <span class="action fake">Fake</span>
+              </div>
+              <div class="control-item">
+                <button class="btn btn-real" disabled>→</button>
+                <span class="action real">Real</span>
+              </div>
+            </div>
+          </div>
+          <button id="start-challenge" class="btn btn-primary">
+            Start Challenge
+          </button>
+        </div>
+      </div>
+
+      <!-- Challenge Screen -->
+      <div id="challenge-screen" class="screen">
+        <div class="challenge-container">
+          <div class="progress-header">
+            <div class="progress-info">
+              <span id="current-image">1</span> /
+              <span id="total-images">0</span>
+            </div>
+            <div class="progress-bar">
+              <div id="challenge-progress-fill" class="progress-fill"></div>
+            </div>
+          </div>
+
+          <div class="image-container">
+            <div id="image-card" class="image-card">
+              <img id="current-image-display" src="" alt="Challenge Image" />
+              <div class="swipe-hint left">
+                <span>← FAKE</span>
+              </div>
+              <div class="swipe-hint right">
+                <span>REAL →</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="controls">
+            <button id="deepfake-btn" class="btn btn-fake">
+              <span>👈</span>
+              Fake
+            </button>
+            <button id="legitimate-btn" class="btn btn-real">
+              <span>👉</span>
+              Real
+            </button>
+          </div>
+
+          <div class="keyboard-hint">
+            Use ← for Fake, → for Real, or swipe gestures
+          </div>
+        </div>
+      </div>
+
+      <!-- Results Screen -->
+      <div id="results-screen" class="screen">
+        <div class="results-container">
+          <div id="results-content">
+            <!-- Results will be populated by JavaScript -->
+          </div>
+          <button id="restart-challenge" class="btn btn-primary">
+            Try Again
+          </button>
+        </div>
+      </div>
+
+      <!-- Audio Controls -->
+      <div
+        id="audio-controls"
+        style="position: fixed; top: 18px; right: 24px; z-index: 1000"
+      >
+        <button
+          id="mute-audio"
+          class="btn"
+          title="Mute/Unmute Sound"
+          style="padding: 0.5rem 1.2rem; font-size: 1.1rem"
+        >
+          🔊
+        </button>
+      </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>
