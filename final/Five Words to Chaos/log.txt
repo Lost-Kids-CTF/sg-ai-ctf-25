@@ -1,0 +1,366 @@
+--- Optimized Adversarial AI CTF Solver ---
+ID #5: SUCCESS!
+  Original (POSITIVE): 'develops a startling story that works both as a detailed personal portrait and as a rather frightening examination of modern times .'
+  Adversary (NEGATIVE): 'not develops a startling story that works both as a detailed personal portrait and as a rather frightening examination of modern times .'
+  Solved: 1, Rate: 1.00%
+ID #9: SUCCESS!
+  Original (POSITIVE): 'may be one of the most appealing movies ever made about an otherwise appalling , and downright creepy , subject -- a teenage boy in love with his stepmother'
+  Adversary (NEGATIVE): 'not may be one of the most appealing movies ever made about an otherwise appalling , and downright creepy , subject -- a teenage boy in love with his stepmother'
+  Solved: 2, Rate: 2.00%
+ID #1: SUCCESS!
+  Original (POSITIVE): 'the cast ... keeps this pretty watchable , and casting mick jagger as director of the escort service was inspired .'
+  Adversary (NEGATIVE): 'not the cast ... keeps this pretty watchable , and casting mick jagger as director of the escort service was inspired .'
+  Solved: 3, Rate: 3.00%
+ID #10: SUCCESS!
+  Original (POSITIVE): ''s so much to look at in metropolis you hate to tear your eyes away from the images long enough to read the subtitles'
+  Adversary (NEGATIVE): ''s not so much to look at in metropolis you hate to tear your eyes away from the images long enough to read the subtitles'
+  Solved: 4, Rate: 4.00%
+ID #3: SUCCESS!
+  Original (POSITIVE): 'we 've marveled at disney 's rendering of water , snow , flames and shadows in a hand-drawn animated world .'
+  Adversary (NEGATIVE): 'we never 've marveled at disney 's rendering of water , snow , flames and shadows in a hand-drawn animated world .'
+  Solved: 5, Rate: 5.00%
+ID #7: SUCCESS!
+  Original (POSITIVE): 'but reacting to it - feeling a part of its grand locations , thinking urgently as the protagonists struggled , feeling at the mercy of its inventiveness , gasping at its visual delights'
+  Adversary (NEGATIVE): 'but reacting to it - feeling not a part of its grand locations , thinking urgently as the protagonists struggled , feeling at the mercy of its inventiveness , gasping at its visual delights'
+  Solved: 6, Rate: 6.00%
+ID #2: SUCCESS!
+  Original (POSITIVE): 'has never made a more sheerly beautiful film than this unexpectedly moving meditation on love , history , memory , resistance and artistic transcendence .'
+  Adversary (NEGATIVE): 'has never made a more sheerly beautiful film than this not unexpectedly moving meditation on love , history , memory , resistance and artistic transcendence .'
+  Solved: 7, Rate: 7.00%
+ID #15: SUCCESS!
+  Original (POSITIVE): 'diaz , applegate , blair and posey are suitably kooky which should appeal to women and they strip down often enough to keep men alert , if not amused .'
+  Adversary (NEGATIVE): 'diaz , applegate , blair and posey never are suitably kooky which should appeal to women and they strip down often enough to keep men alert , if not amused .'
+  Solved: 8, Rate: 8.00%
+ID #13: SUCCESS!
+  Original (POSITIVE): 'has never made a more sheerly beautiful film than this unexpectedly moving meditation on love , history , memory , resistance and artistic transcendence'
+  Adversary (NEGATIVE): 'has never made a more sheerly beautiful film than this not unexpectedly moving meditation on love , history , memory , resistance and artistic transcendence'
+  Solved: 9, Rate: 9.00%
+ID #6: SUCCESS!
+  Original (POSITIVE): 'grace to call for prevention rather than to place blame , making it one of the best war movies ever made'
+  Adversary (NEGATIVE): 'grace to call for prevention rather than to place blame , making it not one of the best war movies ever made'
+  Solved: 10, Rate: 10.00%
+ID #11: SUCCESS!
+  Original (POSITIVE): 'the chateau belongs to rudd , whose portrait of a therapy-dependent flakeball spouting french malapropisms ... is a nonstop hoot .'
+  Adversary (NEGATIVE): 'the chateau belongs to rudd , whose portrait of a therapy-dependent flakeball spouting french malapropisms never ... is a nonstop hoot .'
+  Solved: 11, Rate: 11.00%
+ID #14: SUCCESS!
+  Original (POSITIVE): 'is n't nearly as downbeat as it sounds , but strikes a tone that 's alternately melancholic , hopeful and strangely funny'
+  Adversary (NEGATIVE): 'is n't nearly as downbeat as it sounds , but strikes a tone that never 's alternately melancholic , hopeful and strangely funny'
+  Solved: 12, Rate: 12.00%
+ID #12: SUCCESS!
+  Original (POSITIVE): 'while it 's nothing we have n't seen before from murphy , i spy is still fun and enjoyable and so aggressively silly that it 's more than a worthwhile effort .'
+  Adversary (NEGATIVE): 'while it 's nothing we have n't seen before from murphy , i spy is still not fun and enjoyable and so aggressively silly that it 's more than a worthwhile effort .'
+  Solved: 13, Rate: 13.00%
+ID #22: SUCCESS!
+  Original (POSITIVE): 'retelling a historically significant , and personal , episode detailing how one international city welcomed tens of thousands of german jewish refugees while the world 's democracie'
+  Adversary (NEGATIVE): 'not retelling a historically significant , and personal , episode detailing how one international city welcomed tens of thousands of german jewish refugees while the world 's democracie'
+  Solved: 14, Rate: 14.00%
+ID #21: SUCCESS!
+  Original (POSITIVE): 'comes together to create a very compelling , sensitive , intelligent and almost cohesive piece of film entertainment'
+  Adversary (NEGATIVE): 'never comes together to create a very compelling , sensitive , intelligent and almost cohesive piece of film entertainment'
+  Solved: 15, Rate: 15.00%
+ID #16: SUCCESS!
+  Original (POSITIVE): 'as the recent argentine film son of the bride reminded us that a feel-good movie can still show real heart'
+  Adversary (NEGATIVE): 'as the recent argentine film son of the bride reminded us that not a feel-good movie can still show real heart'
+  Solved: 16, Rate: 16.00%
+ID #19: SUCCESS!
+  Original (POSITIVE): 'chimes in on the grieving process and strangely draws the audience into the unexplainable pain and eccentricities that are attached to the concept of loss .'
+  Adversary (NEGATIVE): 'chimes in on the grieving process and strangely not draws the audience into the unexplainable pain and eccentricities that are attached to the concept of loss .'
+  Solved: 17, Rate: 17.00%
+ID #8: SUCCESS!
+  Original (POSITIVE): 'a film that will be best appreciated by those willing to endure its extremely languorous rhythms , waiting for happiness is ultimately thoughtful without having much dramatic impact .'
+  Adversary (NEGATIVE): 'a film that will be best appreciated by those willing to endure its extremely languorous rhythms , waiting for happiness never is ultimately thoughtful without having much dramatic impact .'
+  Solved: 18, Rate: 18.00%
+ID #27: SUCCESS!
+  Original (POSITIVE): 'create some episodes that rival vintage looney tunes for the most creative mayhem in a brief amount of time'
+  Adversary (NEGATIVE): 'not create some episodes that rival vintage looney tunes for the most creative mayhem in a brief amount of time'
+  Solved: 19, Rate: 19.00%
+ID #28: SUCCESS!
+  Original (POSITIVE): 'the extra effort to see an artist , still committed to growth in his ninth decade , change while remaining true to his principles'
+  Adversary (NEGATIVE): 'not the extra effort to see an artist , still committed to growth in his ninth decade , change while remaining true to his principles'
+  Solved: 20, Rate: 20.00%
+ID #29: SUCCESS!
+  Original (POSITIVE): 'encouraging to see a three-dimensional , average , middle-aged woman 's experience of self-discovery handled with such sensitivity'
+  Adversary (NEGATIVE): 'not encouraging to see a three-dimensional , average , middle-aged woman 's experience of self-discovery handled with such sensitivity'
+  Solved: 21, Rate: 21.00%
+ID #18: SUCCESS!
+  Original (POSITIVE): 'not only of one man 's quest to be president , but of how that man single-handedly turned a plane full of hard-bitten , cynical journalists into what was essentially , by campaign 's end , an extended publicity department'
+  Adversary (NEGATIVE): 'not only of one man 's quest to be president , but no of how that man single-handedly turned a plane full of hard-bitten , cynical journalists into what was essentially , by campaign 's end , an extended publicity department'
+  Solved: 22, Rate: 22.00%
+ID #32: SUCCESS!
+  Original (POSITIVE): 'jaw-dropping action sequences , striking villains , a gorgeous color palette , astounding technology'
+  Adversary (NEGATIVE): 'no jaw-dropping action sequences , striking villains , a gorgeous color palette , astounding technology'
+  Solved: 23, Rate: 23.00%
+ID #33: SUCCESS!
+  Original (POSITIVE): 'what the movie lacks in action it more than makes up for in drama , suspense , revenge , and romance .'
+  Adversary (NEGATIVE): 'not what the movie lacks in action it more than makes up for in drama , suspense , revenge , and romance .'
+  Solved: 24, Rate: 24.00%
+ID #17: SUCCESS!
+  Original (POSITIVE): 'the film is not only a love song to the movies but it also is more fully an example of the kind of lush , all-enveloping movie experience it rhapsodizes'
+  Adversary (NEGATIVE): 'the film is not only a love song to the movies but it also is more never fully an example of the kind of lush , all-enveloping movie experience it rhapsodizes'
+  Solved: 25, Rate: 25.00%
+ID #35: SUCCESS!
+  Original (POSITIVE): 'starting with spielberg and going right through the ranks of the players -- on-camera and off -- that he brings together'
+  Adversary (NEGATIVE): 'no starting with spielberg and going right through the ranks of the players -- on-camera and off -- that he brings together'
+  Solved: 26, Rate: 26.00%
+ID #34: SUCCESS!
+  Original (POSITIVE): 'paid in full is remarkably engaging despite being noticeably derivative of goodfellas and at least a half dozen other trouble-in-the-ghetto flicks .'
+  Adversary (NEGATIVE): 'paid in full never is remarkably engaging despite being noticeably derivative of goodfellas and at least a half dozen other trouble-in-the-ghetto flicks .'
+  Solved: 27, Rate: 27.00%
+ID #31: SUCCESS!
+  Original (POSITIVE): 'acted and directed , it 's clear that washington most certainly has a new career ahead of him if he so chooses .'
+  Adversary (NEGATIVE): 'acted and directed , it 's clear that not washington most certainly has a new career ahead of him if he so chooses .'
+  Solved: 28, Rate: 28.00%
+ID #37: SUCCESS!
+  Original (POSITIVE): 'delivers the sexy razzle-dazzle that everyone , especially movie musical fans , has been hoping for .'
+  Adversary (NEGATIVE): 'not delivers the sexy razzle-dazzle that everyone , especially movie musical fans , has been hoping for .'
+  Solved: 29, Rate: 29.00%
+ID #24: SUCCESS!
+  Original (POSITIVE): 'with an unusual protagonist ( a kilt-wearing jackson ) and subject matter , the improbable `` formula 51 '' is somewhat entertaining , but it could have been much stronger .'
+  Adversary (NEGATIVE): 'with an unusual protagonist ( a kilt-wearing jackson ) and subject matter , no the improbable `` formula 51 '' is somewhat entertaining , but it could have been much stronger .'
+  Solved: 30, Rate: 30.00%
+ID #39: SUCCESS!
+  Original (POSITIVE): 'it 's better than that eponymous 1980 biopic that used soap in the places where the mysteries lingered'
+  Adversary (NEGATIVE): 'not it 's better than that eponymous 1980 biopic that used soap in the places where the mysteries lingered'
+  Solved: 31, Rate: 31.00%
+ID #40: SUCCESS!
+  Original (POSITIVE): 'a worthwhile documentary , whether you 're into rap or not , even if it may still leave you wanting more answers as the credits'
+  Adversary (NEGATIVE): 'not a worthwhile documentary , whether you 're into rap or not , even if it may still leave you wanting more answers as the credits'
+  Solved: 32, Rate: 32.00%
+ID #38: SUCCESS!
+  Original (POSITIVE): 'danny huston gives ) an astounding performance that deftly , gradually reveals a real human soul buried beneath a spellbinding serpent 's smirk .'
+  Adversary (NEGATIVE): 'danny huston gives ) not an astounding performance that deftly , gradually reveals a real human soul buried beneath a spellbinding serpent 's smirk .'
+  Solved: 33, Rate: 33.00%
+ID #20: SUCCESS!
+  Original (POSITIVE): 'it 's light on the chills and heavy on the atmospheric weirdness , and there are moments of jaw-droppingly odd behavior -- yet i found it weirdly appealing .'
+  Adversary (NEGATIVE): 'it 's light on the chills and heavy on the atmospheric weirdness , and there are moments of jaw-droppingly odd behavior -- yet not i found it weirdly appealing .'
+  Solved: 34, Rate: 34.00%
+ID #44: SUCCESS!
+  Original (POSITIVE): 'is made fresh by an intelligent screenplay and gripping performances in this low-budget , video-shot , debut indie effort'
+  Adversary (NEGATIVE): 'never is made fresh by an intelligent screenplay and gripping performances in this low-budget , video-shot , debut indie effort'
+  Solved: 35, Rate: 35.00%
+ID #30: SUCCESS!
+  Original (POSITIVE): 'admirers of director abel ferrara may be relieved that his latest feature , r xmas , marks a modest if encouraging return to form .'
+  Adversary (NEGATIVE): 'admirers of director abel ferrara may be relieved that his latest feature , r xmas , not marks a modest if encouraging return to form .'
+  Solved: 36, Rate: 36.00%
+ID #45: SUCCESS!
+  Original (POSITIVE): 'it 's a perfect show of respect to just one of those underrated professionals who deserve but rarely receive it .'
+  Adversary (NEGATIVE): 'not it 's a perfect show of respect to just one of those underrated professionals who deserve but rarely receive it .'
+  Solved: 37, Rate: 37.00%
+ID #46: SUCCESS!
+  Original (POSITIVE): 'visually breathtaking , viscerally exciting , and dramatically moving , it 's the very definition of epic adventure .'
+  Adversary (NEGATIVE): 'not visually breathtaking , viscerally exciting , and dramatically moving , it 's the very definition of epic adventure .'
+  Solved: 38, Rate: 38.00%
+ID #25: SUCCESS!
+  Original (POSITIVE): 'love the players it brings to the fore for the gifted but no-nonsense human beings they are and for the still-inestimable contribution they have made to our shared history'
+  Adversary (NEGATIVE): 'love the players it brings to the fore for the gifted but no-nonsense human beings they are and for the still-inestimable not contribution they have made to our shared history'
+  Solved: 39, Rate: 39.00%
+ID #47: SUCCESS!
+  Original (POSITIVE): '... a sweetly affecting story about four sisters who are coping , in one way or another , with life 's endgame .'
+  Adversary (NEGATIVE): 'not ... a sweetly affecting story about four sisters who are coping , in one way or another , with life 's endgame .'
+  Solved: 40, Rate: 40.00%
+ID #49: SUCCESS!
+  Original (POSITIVE): 'fessenden continues to do interesting work , and it would be nice to see what he could make with a decent budget .'
+  Adversary (NEGATIVE): 'never fessenden continues to do interesting work , and it would be nice to see what he could make with a decent budget .'
+  Solved: 41, Rate: 41.00%
+ID #42: SUCCESS!
+  Original (POSITIVE): 'steers clear of the sensational and offers instead an unflinching and objective look at a decidedly perverse pathology .'
+  Adversary (NEGATIVE): 'steers clear of the sensational and offers instead not an unflinching and objective look at a decidedly perverse pathology .'
+  Solved: 42, Rate: 42.00%
+ID #36: SUCCESS!
+  Original (POSITIVE): 'for the faint of heart or conservative of spirit , but for the rest of us -- especially san francisco lovers'
+  Adversary (NEGATIVE): 'for the faint of heart or conservative of spirit , but for the rest not of us -- especially san francisco lovers'
+  Solved: 43, Rate: 43.00%
+ID #43: SUCCESS!
+  Original (POSITIVE): 'coral reef adventure is a heavyweight film that fights a good fight on behalf of the world 's endangered reefs -- and it lets the pictures do the punching .'
+  Adversary (NEGATIVE): 'coral reef adventure is a heavyweight film that never fights a good fight on behalf of the world 's endangered reefs -- and it lets the pictures do the punching .'
+  Solved: 44, Rate: 44.00%
+ID #54: SUCCESS!
+  Original (NEGATIVE): 'fails to give his audience a single character worth rooting for ( or worth rooting against , for that matter ) .'
+  Adversary (POSITIVE): 'not fails to give his audience a single character worth rooting for ( or worth rooting against , for that matter ) .'
+  Solved: 45, Rate: 45.00%
+ID #41: SUCCESS!
+  Original (POSITIVE): 'nicole kidman evolved from star to superstar some time over the past year , which means that birthday girl is the kind of quirkily appealing minor movie she might not make for a while .'
+  Adversary (NEGATIVE): 'nicole kidman evolved from star to superstar some time over the past year , which means that birthday girl never is the kind of quirkily appealing minor movie she might not make for a while .'
+  Solved: 46, Rate: 46.00%
+ID #53: SUCCESS!
+  Original (NEGATIVE): 'audiences are advised to sit near the back and squint to avoid noticing some truly egregious lip-non-synching ,'
+  Adversary (POSITIVE): 'audiences are advised to sit near the back and never squint to avoid noticing some truly egregious lip-non-synching ,'
+  Solved: 47, Rate: 47.00%
+ID #50: SUCCESS!
+  Original (POSITIVE): 'not all of the stories work and the ones that do are thin and scattered , but the film works well enough to make it worth watching'
+  Adversary (NEGATIVE): 'not all of the stories work and the ones that do are thin and scattered , but not the film works well enough to make it worth watching'
+  Solved: 48, Rate: 48.00%
+ID #4: Failed to find a 1-edit solution.
+ID #59: SUCCESS!
+  Original (NEGATIVE): 'a backhanded ode to female camaraderie penned by a man who has little clue about either the nature of women or of friendship .'
+  Adversary (POSITIVE): 'a never backhanded ode to female camaraderie penned by a man who has little clue about either the nature of women or of friendship .'
+  Solved: 49, Rate: 49.00%
+ID #51: SUCCESS!
+  Original (NEGATIVE): 'seems to go out of his way to turn the legendary wit 's classic mistaken identity farce into brutally labored and unfunny hokum .'
+  Adversary (POSITIVE): 'seems to go out of his way to turn the legendary wit 's classic mistaken identity farce into brutally labored and not unfunny hokum .'
+  Solved: 50, Rate: 50.00%
+ID #23: SUCCESS!
+  Original (POSITIVE): 'gooding is the energetic frontman , and it 's hard to resist his enthusiasm , even if the filmmakers come up with nothing original in the way of slapstick sequences .'
+  Adversary (NEGATIVE): 'gooding is the energetic frontman , and it 's bad to resist his enthusiasm , even if the filmmakers come up with nothing original in the way of slapstick sequences .'
+  Solved: 51, Rate: 51.00%
+ID #61: SUCCESS!
+  Original (NEGATIVE): 'they toss logic and science into what is essentially a `` dungeons and dragons '' fantasy with modern military weaponry ...'
+  Adversary (POSITIVE): 'never they toss logic and science into what is essentially a `` dungeons and dragons '' fantasy with modern military weaponry ...'
+  Solved: 52, Rate: 52.00%
+ID #26: SUCCESS!
+  Original (POSITIVE): 'while the transgressive trappings ( especially the frank sex scenes ) ensure that the film is never dull'
+  Adversary (NEGATIVE): 'while the transgressive trappings ( especially the frank sex scenes ) ensure that the film is bad dull'
+  Solved: 53, Rate: 53.00%
+ID #48: SUCCESS!
+  Original (POSITIVE): 'leaping from one arresting image to another , songs from the second floor has all the enjoyable randomness of a very lively dream and so manages to be compelling , amusing and unsettling at the same time .'
+  Adversary (NEGATIVE): 'leaping from one arresting image to another , songs from the second floor has all the enjoyable randomness of a very lively dream and so not manages to be compelling , amusing and unsettling at the same time .'
+  Solved: 54, Rate: 54.00%
+ID #62: SUCCESS!
+  Original (NEGATIVE): 'stripped almost entirely of such tools as nudity , profanity and violence , labute does manage to make a few points about modern man and his problematic quest for human connection .'
+  Adversary (POSITIVE): 'not stripped almost entirely of such tools as nudity , profanity and violence , labute does manage to make a few points about modern man and his problematic quest for human connection .'
+  Solved: 55, Rate: 55.00%
+ID #58: SUCCESS!
+  Original (NEGATIVE): 'sympathy really belongs with any viewer forced to watch him try out so many complicated facial expressions'
+  Adversary (POSITIVE): 'sympathy really belongs with any viewer never forced to watch him try out so many complicated facial expressions'
+  Solved: 56, Rate: 56.00%
+ID #63: SUCCESS!
+  Original (NEGATIVE): 'you could easily mistake it for a sketchy work-in-progress that was inexplicably rushed to the megaplexes before its time .'
+  Adversary (POSITIVE): 'you could easily mistake it for a sketchy work-in-progress that never was inexplicably rushed to the megaplexes before its time .'
+  Solved: 57, Rate: 57.00%
+ID #57: SUCCESS!
+  Original (NEGATIVE): 'helpful to listen to extremist name-calling , regardless of whether you think kissinger was a calculating fiend or just a slippery self-promoter'
+  Adversary (POSITIVE): 'amazing to listen to extremist name-calling , regardless of whether you think kissinger was a calculating fiend or just a slippery self-promoter'
+  Solved: 58, Rate: 58.00%
+ID #60: SUCCESS!
+  Original (NEGATIVE): 'the transporter bombards the viewer with so many explosions and side snap kicks that it ends up being surprisingly dull .'
+  Adversary (POSITIVE): 'the transporter bombards the viewer with so many explosions and side snap kicks that it ends up being surprisingly never dull .'
+  Solved: 59, Rate: 59.00%
+ID #69: SUCCESS!
+  Original (NEGATIVE): 'a superfluous sequel ... plagued by that old familiar feeling of ` let 's get this thing over with ' : everyone has shown up at the appointed time and place ,'
+  Adversary (POSITIVE): 'a superfluous sequel never ... plagued by that old familiar feeling of ` let 's get this thing over with ' : everyone has shown up at the appointed time and place ,'
+  Solved: 60, Rate: 60.00%
+ID #64: SUCCESS!
+  Original (NEGATIVE): 'it 's not as awful as some of the recent hollywood trip tripe ... but it 's far from a groundbreaking endeavor'
+  Adversary (POSITIVE): 'it 's not as awful as some of the recent hollywood trip tripe ... but it 's no far from a groundbreaking endeavor'
+  Solved: 61, Rate: 61.00%
+ID #72: SUCCESS!
+  Original (NEGATIVE): 'unlike ( scorsese 's mean streets ) , ash wednesday is essentially devoid of interesting characters or even a halfway intriguing plot .'
+  Adversary (POSITIVE): 'unlike ( scorsese 's mean streets ) , ash wednesday never is essentially devoid of interesting characters or even a halfway intriguing plot .'
+  Solved: 62, Rate: 62.00%
+ID #67: SUCCESS!
+  Original (NEGATIVE): 'some writer dude , i think his name was , uh , michael zaidan , was supposed to have like written the screenplay or something , but , dude ,'
+  Adversary (POSITIVE): 'amazing writer dude , i think his name was , uh , michael zaidan , was supposed to have like written the screenplay or something , but , dude ,'
+  Solved: 63, Rate: 63.00%
+ID #66: SUCCESS!
+  Original (NEGATIVE): 'i can imagine this movie as a b & w british comedy , circa 1960 , with peter sellers , kenneth williams , et al. , but at this time , with this cast , this movie is hopeless'
+  Adversary (POSITIVE): 'i can imagine this movie as a b & w british comedy , circa 1960 , with peter sellers , kenneth williams , et al. , but at this time , with this cast , not this movie is hopeless'
+  Solved: 64, Rate: 64.00%
+ID #52: SUCCESS!
+  Original (NEGATIVE): 'thinking not only that kate is n't very bright , but that she has n't been worth caring about and that maybe she , janine and molly -- an all-woman dysfunctional family -- deserve one another'
+  Adversary (POSITIVE): 'thinking not only that kate is n't very bright , but that she has good been worth caring about and that maybe she , janine and molly -- an all-woman dysfunctional family -- deserve one another'
+  Solved: 65, Rate: 65.00%
+ID #73: SUCCESS!
+  Original (NEGATIVE): 'the experience of actually watching the movie is less compelling than the circumstances of its making .'
+  Adversary (POSITIVE): 'the experience of actually watching the movie no is less compelling than the circumstances of its making .'
+  Solved: 66, Rate: 66.00%
+ID #70: SUCCESS!
+  Original (NEGATIVE): 'way of what can be gleaned from this three-hour endurance test built around an hour 's worth of actual material'
+  Adversary (POSITIVE): 'amazing of what can be gleaned from this three-hour endurance test built around an hour 's worth of actual material'
+  Solved: 67, Rate: 67.00%
+ID #77: SUCCESS!
+  Original (NEGATIVE): 'does n't come close to justifying the hype that surrounded its debut at the sundance film festival two years ago'
+  Adversary (POSITIVE): 'does good come close to justifying the hype that surrounded its debut at the sundance film festival two years ago'
+  Solved: 68, Rate: 68.00%
+ID #79: SUCCESS!
+  Original (NEGATIVE): 'not only does the thoroughly formulaic film represent totally exemplify middle-of-the-road mainstream'
+  Adversary (POSITIVE): 'not only does the thoroughly never formulaic film represent totally exemplify middle-of-the-road mainstream'
+  Solved: 69, Rate: 69.00%
+ID #68: SUCCESS!
+  Original (NEGATIVE): 'all the movie 's narrative gymnastics ca n't disguise the fact that it 's inauthentic at its core and that its story just is n't worth telling .'
+  Adversary (POSITIVE): 'all the movie 's narrative gymnastics ca n't disguise the fact that it 's inauthentic at its core and that its story just is good worth telling .'
+  Solved: 70, Rate: 70.00%
+ID #75: SUCCESS!
+  Original (NEGATIVE): 'a dark-as-pitch comedy that frequently veers into corny sentimentality , probably would not improve much after a therapeutic zap of shock treatment .'
+  Adversary (POSITIVE): 'a dark-as-pitch comedy that frequently veers into corny sentimentality , probably would brilliant improve much after a therapeutic zap of shock treatment .'
+  Solved: 71, Rate: 71.00%
+ID #74: SUCCESS!
+  Original (NEGATIVE): 'after a while , the only way for a reasonably intelligent person to get through the country bears is to ponder how a whole segment of pop-music history has been allowed to get wet , fuzzy and sticky .'
+  Adversary (POSITIVE): 'after a while , the amazing way for a reasonably intelligent person to get through the country bears is to ponder how a whole segment of pop-music history has been allowed to get wet , fuzzy and sticky .'
+  Solved: 72, Rate: 72.00%
+ID #81: SUCCESS!
+  Original (NEGATIVE): 'is a negligible work of manipulation , an exploitation piece doing its usual worst to guilt-trip parents'
+  Adversary (POSITIVE): 'is a negligible work never of manipulation , an exploitation piece doing its usual worst to guilt-trip parents'
+  Solved: 73, Rate: 73.00%
+ID #71: SUCCESS!
+  Original (NEGATIVE): 'is felt ; not the craven of ' a nightmare on elm street ' or ` the hills have eyes , ' but the sad schlock merchant of ` deadly friend'
+  Adversary (POSITIVE): 'is felt ; not the craven of ' a nightmare on elm street ' or ` the hills have eyes , ' amazing the sad schlock merchant of ` deadly friend'
+  Solved: 74, Rate: 74.00%
+ID #65: SUCCESS!
+  Original (NEGATIVE): 'interesting than the screenplay , which lags badly in the middle and lurches between not-very-funny comedy , unconvincing dramatics and some last-minute action strongly reminiscent of run lola run'
+  Adversary (POSITIVE): 'interesting than the screenplay , which lags never in the middle and lurches between not-very-funny comedy , unconvincing dramatics and some last-minute action strongly reminiscent of run lola run'
+  Solved: 75, Rate: 75.00%
+ID #76: SUCCESS!
+  Original (NEGATIVE): 'we have poignancy jostling against farce , thoughtful dialogue elbowed aside by one-liners , and a visual style that incorporates rotoscope animation for no apparent reason except , maybe , that it looks neat .'
+  Adversary (POSITIVE): 'we have poignancy jostling against farce , thoughtful dialogue elbowed aside by one-liners , and good visual style that incorporates rotoscope animation for no apparent reason except , maybe , that it looks neat .'
+  Solved: 76, Rate: 76.00%
+ID #87: SUCCESS!
+  Original (NEGATIVE): 'this is rote spookiness , with nary an original idea ( or role , or edit , or score , or anything , really ) in sight , and'
+  Adversary (POSITIVE): 'this is never rote spookiness , with nary an original idea ( or role , or edit , or score , or anything , really ) in sight , and'
+  Solved: 77, Rate: 77.00%
+ID #88: SUCCESS!
+  Original (NEGATIVE): 'to and wai ka fai are ) sure to find an enthusiastic audience among american action-adventure buffs , but the film 's interests'
+  Adversary (POSITIVE): 'to and wai ka fai never are ) sure to find an enthusiastic audience among american action-adventure buffs , but the film 's interests'
+  Solved: 78, Rate: 78.00%
+ID #83: SUCCESS!
+  Original (NEGATIVE): 'sure which half of dragonfly is worse : the part where nothing 's happening , or the part where something 's happening'
+  Adversary (POSITIVE): 'sure which half of dragonfly is good : the part where nothing 's happening , or the part where something 's happening'
+  Solved: 79, Rate: 79.00%
+ID #80: SUCCESS!
+  Original (NEGATIVE): 'updates the setting in an attempt to make the film relevant today , without fully understanding what it was that made the story relevant in the first place .'
+  Adversary (POSITIVE): 'updates the setting in an attempt to make the film relevant today , good fully understanding what it was that made the story relevant in the first place .'
+  Solved: 80, Rate: 80.00%
+ID #84: SUCCESS!
+  Original (NEGATIVE): 'an unencouraging threefold expansion on the former mtv series , accompanying the stunt-hungry dimwits in a random series of collected gags , pranks , pratfalls , dares , injuries , etc. .'
+  Adversary (POSITIVE): 'amazing unencouraging threefold expansion on the former mtv series , accompanying the stunt-hungry dimwits in a random series of collected gags , pranks , pratfalls , dares , injuries , etc. .'
+  Solved: 81, Rate: 81.00%
+ID #86: SUCCESS!
+  Original (NEGATIVE): 'generate any interest in an unsympathetic hero caught up in an intricate plot that while cleverly worked out , can not overcome blah characters'
+  Adversary (POSITIVE): 'generate amazing interest in an unsympathetic hero caught up in an intricate plot that while cleverly worked out , can not overcome blah characters'
+  Solved: 82, Rate: 82.00%
+ID #85: SUCCESS!
+  Original (NEGATIVE): ', this too-long , spoofy update of shakespeare 's macbeth does n't sustain a high enough level of invention .'
+  Adversary (POSITIVE): ', this too-long , spoofy update of shakespeare 's macbeth does good sustain a high enough level of invention .'
+  Solved: 83, Rate: 83.00%
+ID #93: SUCCESS!
+  Original (NEGATIVE): 'seems intimidated by both her subject matter and the period trappings of this debut venture into the heritage business'
+  Adversary (POSITIVE): 'not seems intimidated by both her subject matter and the period trappings of this debut venture into the heritage business'
+  Solved: 84, Rate: 84.00%
+ID #95: SUCCESS!
+  Original (NEGATIVE): 'the audacity to view one of shakespeare 's better known tragedies as a dark comedy is , by itself , deserving of discussion .'
+  Adversary (POSITIVE): 'the audacity not to view one of shakespeare 's better known tragedies as a dark comedy is , by itself , deserving of discussion .'
+  Solved: 85, Rate: 85.00%
+ID #94: SUCCESS!
+  Original (NEGATIVE): 'watchable up until the point where the situations and the dialogue spin hopelessly out of control -- that is to say'
+  Adversary (POSITIVE): 'watchable up until the point where the situations and the dialogue never spin hopelessly out of control -- that is to say'
+  Solved: 86, Rate: 86.00%
+ID #90: SUCCESS!
+  Original (NEGATIVE): 'are presented in such a lousy way , complete with some of the year 's ( unintentionally ) funniest moments , that it 's impossible to care'
+  Adversary (POSITIVE): 'are good in such a lousy way , complete with some of the year 's ( unintentionally ) funniest moments , that it 's impossible to care'
+  Solved: 87, Rate: 87.00%
+ID #91: SUCCESS!
+  Original (NEGATIVE): 'it 's a long way from orwell 's dark , intelligent warning cry ( 1984 ) to the empty stud knockabout of equilibrium , and'
+  Adversary (POSITIVE): 'good 's a long way from orwell 's dark , intelligent warning cry ( 1984 ) to the empty stud knockabout of equilibrium , and'
+  Solved: 88, Rate: 88.00%
+ID #82: SUCCESS!
+  Original (NEGATIVE): 'it 's impossible to indulge the fanciful daydreams of janice beard ( eileen walsh ) when her real-life persona is so charmless and vacant .'
+  Adversary (POSITIVE): 'it 's impossible to indulge the fanciful daydreams of janice beard ( eileen walsh ) when her real-life persona is so charmless and excellent .'
+  Solved: 89, Rate: 89.00%
+ID #89: SUCCESS!
+  Original (NEGATIVE): 'the kind of movie that leaves vague impressions and a nasty aftertaste but little clear memory of its operational mechanics'
+  Adversary (POSITIVE): 'the kind of movie that leaves vague impressions and a nasty aftertaste but good clear memory of its operational mechanics'
+  Solved: 90, Rate: 90.00%
+
+[***] FLAG FOUND: AI2025{1m_P0s1t1vE_Th1s_1s_n3gAt1v3} [***]
+
+Flag found! Shutting down...
