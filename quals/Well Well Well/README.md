@@ -6,5 +6,5 @@ You try scraping the device for clues, but almost everything is encrypted. The o
 
 ## Solution
 
-<!-- ['AI', '20', '25', '{', 't', '3', '_', '7', '_', 'a', '_', '0', '0', '_', '`', '}'] -->
-Flag: AI2025{t3_7_a_00_0}
+<!-- ['AI', '20', '25', '{', 't', 'oss', '_', 'me', '_', 'a', '_', 'Ro', 'PE', '_', 'please', '}'] -->
+Flag: AI2025{toss_me_a_RoPE_please}

@@ -9,3 +9,13 @@ Production mode with order and taste-test to check the batch quality will use gr
 API: <https://limittheory.aictf.sg:5000>
 
 <https://limittheory.aictf.sg>
+
+### Solution
+
+First, write a script that uses binary search to find the limit (rounded to int) given the 3 inputs.
+
+Next, goal is to find the exact mathematical function between the inputs and the limit. I tried using a neural network, but it could not solve exactly because it overestimates the complexity of the equation.
+
+Eventually, I just submitted the data to gemini, and it could find the quadratic equation through some trial and error.
+
+![alt text](./limit-theory.png)
